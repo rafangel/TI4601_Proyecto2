@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "database": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://ec2-18-221-246-243.us-east-2.compute.amazonaws.com,ec2-18-221-207-28.us-east-2.compute.amazonaws.com,ec2-18-221-238-177.us-east-2.compute.amazonaws.com/Proyecto2?replicaSet=rs0",
+    "database": "",
+    "password": "",
+    "name": "database",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

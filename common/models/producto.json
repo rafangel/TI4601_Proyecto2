@@ -1,0 +1,60 @@
+{
+  "name": "Producto",
+  "plural": "Productos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "codigo": {
+      "type": "number",
+      "required": true
+    },
+    "tipo": {
+      "type": "string",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "precio": {
+      "type": "number",
+      "required": true
+    },
+    "cantCompras": {
+      "type": "number",
+      "required": true
+    },
+    "autor": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "editorial": {
+      "type": "string"
+    },
+    "NoPaginas": {
+      "type": "number"
+    },
+    "color": {
+      "type": "string"
+    },
+    "voltaje": {
+      "type": "number"
+    },
+    "marca": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
