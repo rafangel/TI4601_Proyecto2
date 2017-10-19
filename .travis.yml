@@ -4,6 +4,13 @@ addons:
     - g++-4.8
     sources:
     - ubuntu-toolchain-r-test
+before_deploy: echo 'Ok! Time to deploy. Ready?'
+deploy:
+  app:
+    master: ti4601proyecto2
+  provider: heroku
+  api_key:
+    secure: tuW9iertvNCl+NyGaeLsw+qCBqdvegmQCRuhEvOSZVSAS3YylNi5jovHoTLjBAZUjULys+FZ8gnkkgtIj/rUgB3Q+IEZzJN7hS5cWdzHVixsuPYAcZZWto7NuBBrcrffK+s1JvgslOxQo8wSMAHdv+bG0KCSLJhFh8NWh5PAkp0KTIVt8DPhvA2g+wpQHxvhoZ44HxpvNkVKDYFnmEmDkNiSNHNqArjBOWNT5dVl0+Q2XualayXvKpqIkEoRjDh0mCoEKCx1AVvKIB1UlcbY/MPM7mWGYkPgrOde4QMi3ZofnR7ZdGQEXdoks101ry5x2dOyieZ38oqUC2V8shmTfxL4kr7tseCJ9piczOkhoihyoHi/Nvyc+DAaVHQ9NdfD8CODCLr2HG5iovZUY3T3TYFGzTBlqIpigw2QtGkrpmIqHE7KojHHlHEkDmhPRx1TZQXtWLsD3gYl/ZSaAfPwzGlPBg7IZP6dlfi3PA+McpIgzS61cbrVlkrajYliGSzcPD7dfuJiBMEEp2E3UMghIJsZyzQ32mgBxjFHs5hGx815ytzcZqMH5S5AVQYfCwG7QuybeOMhwdOAF59/ji5y3xD5wSEi1/ZxsT91BbA+mll3TLqVRuDu/UDDNXwpPkA6TsmlaEASfJU/lgZao26vkumAjgsXV+862U452i6Y728=
 env:
 - CXX=g++-4.8
 language: node_js
@@ -12,4 +19,3 @@ node_js:
 script:
 - npm install
 - npm test
-
