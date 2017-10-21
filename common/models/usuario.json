@@ -30,6 +30,14 @@
     "rol": {
       "type": "string",
       "required": true
+    },
+    "productosComprados": {
+      "type": "number",
+      "default": 0
+    },
+    "compras": {
+      "type": "number",
+      "default": 0
     }
   },
   "validations": [],

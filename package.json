@@ -6,7 +6,7 @@
     "node": ">=4"
   },
   "scripts": {
- "test": "echo \"No test specified\" && exit 0",
+    "test": "echo \"No test specified\" && exit 0",
     "start": "node ."
   },
   "dependencies": {
