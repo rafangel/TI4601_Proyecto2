@@ -38,6 +38,14 @@
     "compras": {
       "type": "number",
       "default": 0
+    },
+    "compraMenor": {
+      "type": "number",
+      "default": 0
+    },
+    "compraMayor": {
+      "type": "number",
+      "default": 0
     }
   },
   "validations": [],
