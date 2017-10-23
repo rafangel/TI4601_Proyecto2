@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu de Administrador</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/MenuAdministrador.css">
+	<script type="text/javascript" src="../JS/jquery.js"></script>
+	<script type="text/javascript" src="../JS/MenuAdministrador.js"></script>
+
+
+	<style>
+		table {
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+
+		th, td {
+		    text-align: left;
+		    padding: 8px;
+		}
+
+		tr:nth-child(even){background-color: #f2f2f2}
+
+		th {
+		    background-color: #4CAF50;
+		    color: white;
+		}
+
+	</style>
+</head>
+<body>
+<ul><li >
+	Agregar Producto
+    <ul id="Producto">
+      <li onclick="CambiarPantalla('AgregaLibro.html')">Libro</li>
+      <li onclick="CambiarPantalla('AgregaElectrodomesticos.html')">Electrodomestico</li>
+      <li onclick="CambiarPantalla('AgregaOtro.html')">Otros</li>
+    </ul>	
+	</li>
+
+  <li onclick="VerProductos()">Ver Productos</li>
+  <li>
+    Consultas
+    <ul id="j">
+      <li onclick="Promedio()" >Promedio Productos</li>
+      <li onclick="Rango()">Rango de Producto</li>
+      <li onclick="MejoresProductos()">Mejores tres Productos</li>
+    </ul>
+  </li>
+  <li>Modificar Producto
+    <ul id="Modificar">
+      <li onclick="CambiarPantalla('ModificaLibro.html')">Libro</li>
+      <li  onclick="CambiarPantalla('ModificaElectrodomestico.html')">Electrodomestico</li>
+      <li onclick="CambiarPantalla('ModificaOtro.html')">Otros</li>
+    </ul>
+  </li>
+</ul>
+<br>
+<br>
+<br>
+
+
+
+
+</body>
+</html>
